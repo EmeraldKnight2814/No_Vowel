@@ -12,10 +12,12 @@
         android:id="@+id/MUTATE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="2dp"
         android:onClick="checkForInput"
         android:text="MUTATE"
+        app:layout_constraintEnd_toStartOf="@+id/x_out"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,5 +56,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_input" />
+
+    <Button
+        android:id="@+id/x_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="2dp"
+        android:text="X OUT"
+        app:layout_constraintEnd_toStartOf="@+id/cycle"
+        app:layout_constraintStart_toEndOf="@+id/MUTATE"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="2dp"
+        android:text="CYCLE"
+        app:layout_constraintEnd_toStartOf="@+id/double_button"
+        app:layout_constraintStart_toEndOf="@+id/x_out"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/double_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="20dp"
+        android:text="DOUBLE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cycle"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

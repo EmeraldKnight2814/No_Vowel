@@ -56,4 +56,22 @@ public class MainActivity extends AppCompatActivity {
 
         return new_string;
     }
+
+    public String xOut(String string_in){
+        String new_string = "";
+
+        return new_string;
+    }
+
+    public String cycle(String string_in){
+        String new_string = "";
+
+        return new_string;
+    }
+
+    public String doubleString(String string_in){
+        String new_string = "";
+
+        return new_string;
+    }
 }
