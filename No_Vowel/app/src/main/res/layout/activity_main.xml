@@ -17,6 +17,7 @@
         android:layout_marginEnd="2dp"
         android:onClick="checkForInput"
         android:text="MUTATE"
+        android:backgroundTint="#06D11B"
         app:layout_constraintEnd_toStartOf="@+id/x_out"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -64,7 +65,9 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="2dp"
+        android:onClick="checkForInputX"
         android:text="X OUT"
+        android:backgroundTint="#E92E2E"
         app:layout_constraintEnd_toStartOf="@+id/cycle"
         app:layout_constraintStart_toEndOf="@+id/MUTATE"
         app:layout_constraintTop_toTopOf="parent" />
@@ -76,7 +79,9 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="2dp"
+        android:onClick="checkForInputC"
         android:text="CYCLE"
+        android:backgroundTint="#AF30EB"
         app:layout_constraintEnd_toStartOf="@+id/double_button"
         app:layout_constraintStart_toEndOf="@+id/x_out"
         app:layout_constraintTop_toTopOf="parent" />
@@ -88,7 +93,9 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="31dp"
         android:layout_marginEnd="20dp"
+        android:onClick="checkForInputD"
         android:text="DOUBLE"
+        android:backgroundTint="#FD3FD8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cycle"
         app:layout_constraintTop_toTopOf="parent" />
